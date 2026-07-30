@@ -1,10 +1,12 @@
 {
   "name": "@o11yworks/splunk-skills",
   "version": "1.0.0",
-  "description": "Enterprise Splunk AI Agent Skills Suite for Leadership, Architecture, Ingestion, Development, and Operations",
+  "description": "Enterprise Splunk AI Agent Skills Suite v1.0.0 with built-in SPL Search Engine & REST API Integration",
   "keywords": [
     "splunk",
     "agent-skills",
+    "spl-search",
+    "rest-api",
     "opentelemetry",
     "observability",
     "ai-agent",

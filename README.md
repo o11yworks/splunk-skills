@@ -1,11 +1,19 @@
 # 🚀 o11yworks Splunk Master Skills Suite
 
-[![GitHub Release](https://img.shields.io/github/v/release/o11yworks/splunk-skills?color=blue&label=skills-release)](https://github.com/o11yworks/splunk-skills)
+[![Release Version](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/o11yworks/splunk-skills/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Usage: 100% Free](https://img.shields.io/badge/Usage-100%25%20Free-green.svg)](https://github.com/o11yworks/splunk-skills)
 [![Supported Agents](https://img.shields.io/badge/Supported%20Agents-Antigravity%20%7C%20Cursor%20%7C%20Claude%20%7C%20Vercel%20Skills-brightgreen)](https://github.com/o11yworks/splunk-skills)
 
-A complete, enterprise-grade suite of **5 Master AI Agent Skills** for Splunk leadership, architecture, data engineering, application development, and platform operations.
+A complete, enterprise-grade suite of **5 Master AI Agent Skills** for Splunk leadership, architecture, data engineering, application development, and platform operations. Includes built-in **SPL Search Engine Optimization**, **REST API / Python SDK Integration**, and **Automatic Manifest Indexing**.
+
+---
+
+## ⚡ Built-in Capabilities Highlight
+
+- 🔍 **Inbuilt SPL Search Engine**: Advanced SPL query writing, early index/sourcetype scoping, `tstats` high-speed acceleration, streaming vs transforming pipeline rules, search macros, and CSV/KVStore lookups.
+- 🔌 **Inbuilt REST API & SDK Integration**: Programmatic REST interaction with `splunkd` endpoints (`/services/search/jobs`, `/services/collector`, `/services/data/inputs`), persistent Python REST handlers (`PersistentServerConnectionApplication`), and HTTP Event Collector (HEC) token streaming.
+- ⚙️ **Automatic Indexing via `skills.json`**: This repository includes a [`skills.json`](https://github.com/o11yworks/splunk-skills/blob/main/skills.json) manifest. When cloned or linked, AI agents automatically discover and index all 5 skills without manual configuration.
 
 ---
 
@@ -72,17 +80,13 @@ cp -r temp-skills/skills/* .claude/skills/
 
 Try asking your AI agent after installing these skills:
 
+- 🔍 **SPL Search Engine**: *"Write an optimized SPL query using tstats and scope-first filtering to find top error sourcetypes in the last 24 hours"*
+- 🔌 **REST API Integration**: *"Write a Python script using splunklib.client to create a search job and parse JSON results from the Splunk REST API"*
 - 👑 **Strategic Leadership**: *"Create a 3-year Splunk roadmap and License FinOps optimization strategy using splunk-lead"*
 - 🏗️ **Architecture & Sizing**: *"Size an indexer cluster and RAM/vCPU specs for 1.5TB/day ingestion using splunk-build"*
 - 📥 **Data Pipelines & CIM**: *"Build props.conf line breaking and CIM Authentication mapping for Cisco firewall logs using splunk-data"*
 - 💻 **App & TA Development**: *"Scaffold a Splunk Technology Add-on for AWS with a Python modular input using splunk-dev"*
 - 🛠️ **Ops & Triage**: *"Diagnose a 100% full typing queue and check btool precedence for props.conf using splunk-ops"*
-
----
-
-## ⚙️ Automatic Indexing via `skills.json`
-
-This repository includes a [`skills.json`](file:///Users/vgeriti/Desktop/o11yworks/packages/o11yworks-splunk-skills/skills.json) manifest. When cloned or linked, AI agents automatically discover and index all skills without manual configuration.
 
 ---
 
