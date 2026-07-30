@@ -9,15 +9,17 @@ A complete, enterprise-grade suite of **5 Master AI Agent Skills** for Splunk le
 
 ---
 
-## 📦 What's Included
+## 📦 Master Skill Suite & Technical Documentation Links
 
-| Skill Name | Role Focus | Primary Capabilities |
-| :--- | :--- | :--- |
-| **`splunk-lead`** | **Splunk Program Owner / Strategy Lead** | Multi-year roadmaps, Center of Excellence (CoE) charter, License FinOps cost optimization, Use Case Management (UCM), and Splunk Success Framework (SSF) maturity assessments. |
-| **`splunk-build`** | **Enterprise Architect** | Topology design (Distributed, Indexer Clusters, SHC, SmartStore, Federated Search), hardware sizing calculations (vCPU/RAM/IOPS), OS kernel tuning, TLS encryption, and `splunk-appinspect` Cloud vetting. |
-| **`splunk-data`** | **Data Engineer & Knowledge Manager** | HEC streaming, SC4S, OpenTelemetry Collector integration, Edge Processor SPL2 rules, line breaking (`LINE_BREAKER`), timestamping, data masking (`SEDCMD`), and CIM normalization. |
-| **`splunk-dev`** | **Developer & Dashboard Engineer** | TA structuring (`Splunk_TA_*`), Python modular inputs, SPL query engine optimization (`tstats`), Protocol v2 Custom Search Commands, ES Risk Scoring, ITSI KPIs, Dashboard Studio JSON, and `@splunk/react-ui`. |
-| **`splunk-ops`** | **Splunk Admin & SRE** | `btool` precedence debugging (`btool list --debug`, `btool check`), `splunkd.log` triage, pipeline queue bottleneck analysis (`parsingQ`, `typingQ`, `indexQ`), Monitoring Console alerts, and `splunk diag`. |
+| Skill Name | Role Focus | Primary Capabilities | Technical Guide |
+| :--- | :--- | :--- | :---: |
+| **`splunk-lead`** | **Splunk Program Owner / Strategy Lead** | Multi-year roadmaps, Center of Excellence (CoE) charter, License FinOps cost optimization, Use Case Management (UCM), and Splunk Success Framework (SSF) maturity assessments. | 📖 **[Guide](https://github.com/o11yworks/splunk-skills/blob/main/docs/skills/splunk-lead.md)** |
+| **`splunk-build`** | **Enterprise Architect** | Topology design (Distributed, Indexer Clusters, SHC, SmartStore, Federated Search), hardware sizing calculations (vCPU/RAM/IOPS), OS kernel tuning, TLS encryption, and `splunk-appinspect` Cloud vetting. | 📖 **[Guide](https://github.com/o11yworks/splunk-skills/blob/main/docs/skills/splunk-build.md)** |
+| **`splunk-data`** | **Data Engineer & Knowledge Manager** | HEC streaming, SC4S, OpenTelemetry Collector integration, Edge Processor SPL2 rules, line breaking (`LINE_BREAKER`), timestamping, data masking (`SEDCMD`), and CIM normalization. | 📖 **[Guide](https://github.com/o11yworks/splunk-skills/blob/main/docs/skills/splunk-data.md)** |
+| **`splunk-dev`** | **Developer & Dashboard Engineer** | TA structuring (`Splunk_TA_*`), Python modular inputs, SPL query engine optimization (`tstats`), Protocol v2 Custom Search Commands, ES Risk Scoring, ITSI KPIs, Dashboard Studio JSON, and `@splunk/react-ui`. | 📖 **[Guide](https://github.com/o11yworks/splunk-skills/blob/main/docs/skills/splunk-dev.md)** |
+| **`splunk-ops`** | **Splunk Admin & SRE** | `btool` precedence debugging (`btool list --debug`, `btool check`), `splunkd.log` triage, pipeline queue bottleneck analysis (`parsingQ`, `typingQ`, `indexQ`), Monitoring Console alerts, and `splunk diag`. | 📖 **[Guide](https://github.com/o11yworks/splunk-skills/blob/main/docs/skills/splunk-ops.md)** |
+
+👉 **Full Documentation Hub**: 📖 **[Master Technical Index](https://github.com/o11yworks/splunk-skills/blob/main/docs/README.md)**
 
 ---
 
@@ -80,14 +82,17 @@ Try asking your AI agent after installing these skills:
 
 ---
 
-## 🆓 Free Usage & Disclaimer
+## 🛡️ Security, Privacy & Free Usage Disclaimer
 
 > [!NOTE]
 > **100% Free & Open Source**: This skill repository is provided completely **free of charge** under the MIT open-source license.
 >
 > **Discretionary Use**: These skills are provided "as-is" to assist AI coding agents. Individuals, teams, and organizations are free to use, modify, adapt, and integrate these skills into their projects at their own discretion and responsibility.
+>
+> **Audited for Security**: All skills are free of secrets, credentials, or private keys. Sanitized parameters and industry-standard security practices are enforced across all templates.
 
 ---
 
-## 📄 License
-MIT © [o11yworks](https://github.com/o11yworks)
+## 📬 Contact & Support
+- **Maintainer**: Venkatesh (`venkatesh.o11y@gmail.com`)
+- **License**: MIT © [o11yworks](https://github.com/o11yworks)
