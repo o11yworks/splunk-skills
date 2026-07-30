@@ -1,12 +1,16 @@
-# 🚀 o11yworks Splunk Master Skills Hub
+# 🚀 o11yworks Splunk Master Skills Suite
 
-A complete, enterprise-grade suite of **AI Agent Skills** for Splunk leadership, architecture, data engineering, application development, and platform operations. Built for AI coding assistants (Antigravity, Cursor, Claude Code, Vercel Skills).
+[![GitHub Release](https://img.shields.io/github/v/release/o11yworks/splunk-skills?color=blue&label=skills-release)](https://github.com/o11yworks/splunk-skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Supported Agents](https://img.shields.io/badge/Supported%20Agents-Antigravity%20%7C%20Cursor%20%7C%20Claude%20%7C%20Vercel%20Skills-brightgreen)](https://github.com/o11yworks/splunk-skills)
+
+A complete, enterprise-grade suite of **5 Master AI Agent Skills** for Splunk leadership, architecture, data engineering, application development, and platform operations.
 
 ---
 
 ## 📦 What's Included
 
-| Skill Name | Role Focus | Description |
+| Skill Name | Role Focus | Primary Capabilities |
 | :--- | :--- | :--- |
 | **`splunk-lead`** | **Splunk Program Owner / Strategy Lead** | Multi-year roadmaps, Center of Excellence (CoE) charter, License FinOps cost optimization, Use Case Management (UCM), and Splunk Success Framework (SSF) maturity assessments. |
 | **`splunk-build`** | **Enterprise Architect** | Topology design (Distributed, Indexer Clusters, SHC, SmartStore, Federated Search), hardware sizing calculations (vCPU/RAM/IOPS), OS kernel tuning, TLS encryption, and `splunk-appinspect` Cloud vetting. |
@@ -19,13 +23,13 @@ A complete, enterprise-grade suite of **AI Agent Skills** for Splunk leadership,
 ## ⚡ Quick Installation & Usage
 
 ### Method 1: Install via Skills CLI (Recommended)
-Add all 5 skills to any project using the Vercel / Agent Skills CLI:
+Add all 5 master skills to any project using the Vercel / Agent Skills CLI:
 
 ```bash
 npx skills add o11yworks/splunk-skills
 ```
 
-Or install a specific skill:
+Or install a specific skill (e.g., `splunk-dev`):
 
 ```bash
 npx skills add o11yworks/splunk-skills/skills/splunk-dev
@@ -36,7 +40,7 @@ npx skills add o11yworks/splunk-skills/skills/splunk-dev
 ### Method 2: Manual Installation into Local Workspace
 
 #### For Antigravity IDE:
-Clone or copy the `skills/` directory into your project's `.agents/skills/` directory:
+Copy or clone the `skills/` directory into your project's `.agents/skills/` directory:
 
 ```bash
 git clone https://github.com/o11yworks/splunk-skills.git temp-skills
@@ -53,17 +57,31 @@ mkdir -p .cursor/skills
 cp -r temp-skills/skills/* .cursor/skills/
 ```
 
+#### For Claude Code / Vercel Skills:
+Copy to `.claude/skills/`:
+
+```bash
+mkdir -p .claude/skills
+cp -r temp-skills/skills/* .claude/skills/
+```
+
 ---
 
-## 📖 Example Agent Prompts
+## 📖 Real-World Agent Prompts
 
-Try asking your AI agent:
+Try asking your AI agent after installing these skills:
 
-- **Strategic**: *"Create a 3-year Splunk roadmap and License FinOps optimization strategy using splunk-lead"*
-- **Architecture**: *"Size an indexer cluster and RAM/vCPU specs for 1.5TB/day ingestion using splunk-build"*
-- **Data Engineering**: *"Build props.conf line breaking and CIM Authentication mapping for Cisco firewall logs using splunk-data"*
-- **Development**: *"Scaffold a Splunk Technology Add-on for AWS with a Python modular input using splunk-dev"*
-- **Troubleshooting**: *"Diagnose a 100% full typing queue and check btool precedence for props.conf using splunk-ops"*
+- 👑 **Strategic Leadership**: *"Create a 3-year Splunk roadmap and License FinOps optimization strategy using splunk-lead"*
+- 🏗️ **Architecture & Sizing**: *"Size an indexer cluster and RAM/vCPU specs for 1.5TB/day ingestion using splunk-build"*
+- 📥 **Data Pipelines & CIM**: *"Build props.conf line breaking and CIM Authentication mapping for Cisco firewall logs using splunk-data"*
+- 💻 **App & TA Development**: *"Scaffold a Splunk Technology Add-on for AWS with a Python modular input using splunk-dev"*
+- 🛠️ **Ops & Triage**: *"Diagnose a 100% full typing queue and check btool precedence for props.conf using splunk-ops"*
+
+---
+
+## ⚙️ Automatic Indexing via `skills.json`
+
+This repository includes a [`skills.json`](file:///Users/vgeriti/Desktop/o11yworks/packages/o11yworks-splunk-skills/skills.json) manifest. When cloned or linked, AI agents automatically discover and index all skills without manual configuration.
 
 ---
 
