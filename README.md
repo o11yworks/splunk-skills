@@ -2,6 +2,7 @@
 
 [![GitHub Release](https://img.shields.io/github/v/release/o11yworks/splunk-skills?color=blue&label=skills-release)](https://github.com/o11yworks/splunk-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Usage: 100% Free](https://img.shields.io/badge/Usage-100%25%20Free-green.svg)](https://github.com/o11yworks/splunk-skills)
 [![Supported Agents](https://img.shields.io/badge/Supported%20Agents-Antigravity%20%7C%20Cursor%20%7C%20Claude%20%7C%20Vercel%20Skills-brightgreen)](https://github.com/o11yworks/splunk-skills)
 
 A complete, enterprise-grade suite of **5 Master AI Agent Skills** for Splunk leadership, architecture, data engineering, application development, and platform operations.
@@ -82,6 +83,15 @@ Try asking your AI agent after installing these skills:
 ## ⚙️ Automatic Indexing via `skills.json`
 
 This repository includes a [`skills.json`](file:///Users/vgeriti/Desktop/o11yworks/packages/o11yworks-splunk-skills/skills.json) manifest. When cloned or linked, AI agents automatically discover and index all skills without manual configuration.
+
+---
+
+## 🆓 Free Usage & Disclaimer
+
+> [!NOTE]
+> **100% Free & Open Source**: This skill repository is provided completely **free of charge** under the MIT open-source license.
+>
+> **Discretionary Use**: These skills are provided "as-is" to assist AI coding agents. Individuals, teams, and organizations are free to use, modify, adapt, and integrate these skills into their projects at their own discretion and responsibility.
 
 ---
 
