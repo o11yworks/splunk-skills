@@ -1,0 +1,20 @@
+{
+  "name": "@o11yworks/splunk-skills",
+  "version": "1.0.0",
+  "description": "Enterprise Splunk AI Agent Skills Suite for Leadership, Architecture, Ingestion, Development, and Operations",
+  "keywords": [
+    "splunk",
+    "agent-skills",
+    "opentelemetry",
+    "observability",
+    "ai-agent",
+    "antigravity",
+    "cursor-skills"
+  ],
+  "homepage": "https://github.com/o11yworks/splunk-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o11yworks/splunk-skills.git"
+  },
+  "license": "MIT"
+}
